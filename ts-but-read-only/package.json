@@ -1,0 +1,19 @@
+{
+    "name": "ts-but-read-only",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "tsc"
+    },
+    "keywords": [],
+    "author": "Antony74",
+    "license": "MIT",
+    "devDependencies": {
+        "ts-patch": "^3.3.0",
+        "typescript": "^5.8.3"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true
+    }
+}

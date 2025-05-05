@@ -1,0 +1,21 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "tspc",
+        "ts": "tsc"
+    },
+    "keywords": [],
+    "author": "Antony74",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^22.15.3",
+        "ts-but-read-only": "file:../ts-but-read-only",
+        "ts-patch": "^3.3.0",
+        "typescript": "^5.8.3"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true
+    }
+}
