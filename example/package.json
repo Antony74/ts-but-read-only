@@ -2,7 +2,7 @@
     "name": "example",
     "version": "1.0.0",
     "scripts": {
-        "start": "tspc",
+        "start": "npm run start --prefix=../ts-but-read-only && npm install ../ts-but-read-only && tspc",
         "ts": "tsc"
     },
     "keywords": [],
